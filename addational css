@@ -1,0 +1,26 @@
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 2rem;
+    height: 200px;
+}
+
+.image-set {
+    display: block;
+    height: 200px;
+    overflow-y: hidden;
+}
+
+.image-set a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image-set img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+Putting these together sh
